@@ -1,12 +1,20 @@
-# React + Vite
+# Login Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bu proje, React ve Vite kullanılarak oluşturulmuş bir **Login Formu E2E testi** projesidir.
 
-Currently, two official plugins are available:
+## Özellikler
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Login formu: email, password ve şartlar checkbox'ı
+- Form validasyonları:
+  - Geçerli email formatı
+  - Strong password (şifre kriterleri)
+  - Şartlar checkbox’ı işaretlenmeden submit engellenir
+- Başarılı login → Success sayfasına yönlendirme
+- Cypress ile E2E test senaryoları hazırlanmıştır
 
-## Expanding the ESLint configuration
+## Teknolojiler
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- Vite
+- React Router
+- Cypress (E2E testler)
